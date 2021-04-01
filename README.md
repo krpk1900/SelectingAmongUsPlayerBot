@@ -6,3 +6,11 @@ Among Usの参加者をランダムに10人選んで、参加者のチャンネ�
 1. プログラムを実行する
 
 ```bandle exec ruby selecting_among_us_players_bot.rb```
+
+2. ngrokを起動する
+
+```ngrok http 4567```
+
+3. ngrokで発行されたurlをスラッシュコマンドのRequest URLに登録
+
+https://api.slack.com/apps/A01QATFD5CG/slash-commands?saved=1
