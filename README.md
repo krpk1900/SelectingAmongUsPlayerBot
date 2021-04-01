@@ -14,3 +14,7 @@ Among Usの参加者をランダムに10人選んで、参加者のチャンネ�
 3. ngrokで発行されたurlをスラッシュコマンドのRequest URLに登録
 
 https://api.slack.com/apps/A01QATFD5CG/slash-commands?saved=1
+
+4. slackでスラッシュコマンドを実行
+
+```/among us```
